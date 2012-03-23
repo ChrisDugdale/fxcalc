@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="96B113E3-3909-49FA-B7C5-4BA3A961280A" ModuleId="FXCalculator" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms_1" />
+</Modules>
