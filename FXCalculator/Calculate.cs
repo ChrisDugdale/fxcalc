@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FXCalculator
 {
-    //ide test
+    
     public static class Calculate
     {
         /// <summary>
