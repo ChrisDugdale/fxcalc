@@ -17,3 +17,5 @@ C:\Users\Dugzor\Dropbox\C# Workspace\My Projects\FXCalculator\FXCalculator\obj\x
 C:\Users\Dugzor\Dropbox\C# Workspace\My Projects\FXCalculator\FXCalculator\obj\x86\Debug\FXCalculator.Properties.Resources.resources
 C:\Users\Dugzor\Dropbox\C# Workspace\My Projects\FXCalculator\FXCalculator\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Dugzor\Dropbox\C# Workspace\My Projects\FXCalculator\FXCalculator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Dugzor\fxcalc\FXCalculator\obj\x86\Debug\FXCalculator.exe
+C:\Users\Dugzor\fxcalc\FXCalculator\obj\x86\Debug\FXCalculator.pdb
