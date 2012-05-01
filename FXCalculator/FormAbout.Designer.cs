@@ -41,14 +41,16 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Close";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(387, 95);
+            this.label1.Size = new System.Drawing.Size(387, 222);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Forex Calculator v1, by Chris Dugdale.\r\n\r\nPublished ";
+            this.label1.Text = resources.GetString("label1.Text");
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // FormAbout
             // 
