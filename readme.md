@@ -1,4 +1,4 @@
-forexcalc
+fxcalc
 =========
 
-A WPF based spread betting order level calculator. This is incomplete. for the complete winforms version see my other repo: git://github.com/ChrisDugdale/fxcalc.git
+A Winforms based forex calculator for spread betting the market. 
