@@ -117,16 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
+  <data name="richTextBox1.Text" xml:space="preserve">
     <value>Forex Calculator v1, by Chris Dugdale.
 
-
-Published in April 2012. 
+Published April 2012. 
 
 I take no responsibiliy if the use of this app causes any harm to anything. and by using this you agree not to sue me for anything at all either. thanks.
 
-The source code can be found on GitHub: https://github.com/ChrisDugdale/fxcalc
-</value>
+The source code can be found on GitHub: https://github.com/ChrisDugdale/fxcalc</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="FXCalculator.exe" version="1.0.0.2" publicKeyToken="d6cf0b11303d511d" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Resources\Favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FXCalculator" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="FXCalculator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FXCalculator.exe" size="157184">
+      <assemblyIdentity name="FXCalculator" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>QcIrOn3YvXhrRfvIJfYG7TihzDs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Resources\Favicon.ico" size="42642">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VOgnDZrM80PYNeJp1ncFu9MX4xI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=VMW7\Dugzor" issuerKeyHash="8caae48b856c85f7a411574d2b9a4538f9b230f2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>djU9pWRzwH2Axei+VARr0zVfzpc=</DigestValue></Reference></SignedInfo><SignatureValue>Y+wIFarnaqpiV4Pd7MitfICF43+1mm0ieDXh88AxDPzsrFp/6X9Aalu1SwyHznuh9FV8SSOVCKog2zDQ2QORHMDviWJmOGEIh8Ni/O1a8JOQwwRh9k3fG6cbKuBKZXmlNX5qYqMV7EonpPnXOoaBGYLQYsCUpY+uX6XRcqXZ+Is=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2jVPdjdN2PLZQADsGM/M75XywtopaBPRcnTOuo25WdMzG0aTJLg5ZB6/glp/L5U1xJlHCEPxCBAZ4l/Yzjm+KHdT0Fz8ctxp0CeTjDECROcxtsiswf2S/NA7k7Thdalqo806V10sV2SOSj6E86B1czq0pPvW3gdAukGUNSPqU/k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="97ce5f35d36b0454bee8c5807dc07364a53d3576" Description="" Url=""><as:assemblyIdentity name="FXCalculator.exe" version="1.0.0.2" publicKeyToken="d6cf0b11303d511d" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VMW7\Dugzor</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Vb56RVuUerXdFjBoe37gv+kM6Jw=</DigestValue></Reference></SignedInfo><SignatureValue>f2yvUD6rAv+MAU/aNtuYuh1YAtuTy6VE1ciFxBF/buEyhukuI+0f3UtSMJ+E7zcBjjkwJcuimDFl5Dcfk2dJ0dT6Dgc90sbSv/S7LR76r0AgWz+ECNZM3ZPqumHjpikAtr62NKcyDEXsj9/3x+8uhamnaWG0fJSZmIhzL4c9UIQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2jVPdjdN2PLZQADsGM/M75XywtopaBPRcnTOuo25WdMzG0aTJLg5ZB6/glp/L5U1xJlHCEPxCBAZ4l/Yzjm+KHdT0Fz8ctxp0CeTjDECROcxtsiswf2S/NA7k7Thdalqo806V10sV2SOSj6E86B1czq0pPvW3gdAukGUNSPqU/k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQfjDmdvXxWa1LfbfTffczMTANBgkqhkiG9w0BAQUFADAhMR8wHQYDVQQDHhYAVgBNAFcANwBcAEQAdQBnAHoAbwByMB4XDTEyMDUwMzIyMDE1M1oXDTEzMDUwNDA0MDE1M1owITEfMB0GA1UEAx4WAFYATQBXADcAXABEAHUAZwB6AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2jVPdjdN2PLZQADsGM/M75XywtopaBPRcnTOuo25WdMzG0aTJLg5ZB6/glp/L5U1xJlHCEPxCBAZ4l/Yzjm+KHdT0Fz8ctxp0CeTjDECROcxtsiswf2S/NA7k7Thdalqo806V10sV2SOSj6E86B1czq0pPvW3gdAukGUNSPqU/kCAwEAATANBgkqhkiG9w0BAQUFAAOBgQAN3g1I33pucGntlAYXsEKUWSQYChIN4hV07GhgGgI7KBI+Gkoqq5iamWKs/9oBAJPS5MknVV2x1rNDatIfZijZ/giIoEA65XM/2ICAtU+wPgW9ApUka5xD42oXpqBddjdiYH17/ZsdPvSLPUsB9/1WgBPYx8x0+zYfSsBqhj5/yA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
